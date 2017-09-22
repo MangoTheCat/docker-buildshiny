@@ -9,7 +9,6 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libfreetype6 \
   libfreetype6-dev \
   libssl-dev \
-  libpng \
   libpng-dev \
   bzip2
 
