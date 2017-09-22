@@ -18,5 +18,3 @@ RUN cd ~ \
   && tar xvjf phantomjs-${PHANTOM_JS}-linux-x86_64.tar.bz2 \
   && mv phantomjs-${PHANTOM_JS}-linux-x86_64 /usr/local/share \
   && ln -sf /usr/local/share/phantomjs-${PHANTOM_JS}-linux-x86_64/bin/phantomjs /usr/local/bin
-
-RUN R -e "remotes::install_github(\"rstudio/shinytest\")"
